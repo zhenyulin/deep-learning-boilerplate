@@ -16,11 +16,20 @@ The template of alchemist model engine
 * IDE with linting, formatting, REPL (Sublime Text with plugins)
  * open the corresponding python version REPL under `Tools > SublimeREPL > Python`
  * evaluate selection or file using your local shortcuts
+ * SublimeText Plugins
+  * SublimeREPL
+  * SUblimeLinter?
+* pip - the default python package manager (npm)
+ * not recommended for local development
 
 #### Development
-* Linting - how to incorporate flake8 into local and ci env?
-* Formating - what is the `prettier` for python?
+* Linting
+ * how to incorporate flake8 into local and ci env?
+ * how to config flake8
+ * commitlint?
+* Formating - [black](https://github.com/python/black)
 * Testing - pytest
+* Semver
 
 #### Training
 
