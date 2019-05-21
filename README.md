@@ -17,6 +17,11 @@ The template of alchemist model engine
  * open the corresponding python version REPL under `Tools > SublimeREPL > Python`
  * evaluate selection or file using your local shortcuts
 
+#### Development
+* Linting - how to incorporate flake8 into local and ci env?
+* Formating - what is the `prettier` for python?
+* Testing - pytest
+
 #### Training
 
 #### Deploy
