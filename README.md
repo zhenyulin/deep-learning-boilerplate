@@ -12,7 +12,7 @@ The template of alchemist model engine
  * `brew install pipenv`
  * using `Pipfile` to specify python compiler version and packages
  * `pipenv --three` (generating Pipfile.lock) / `conda install --file Pipfile`
- * `pipenv shell` to activate the virtual environment
+ * `pipenv shell` to activate the virtual environment if needed
 * IDE with linting, formatting, REPL (Sublime Text with plugins)
  * open the corresponding python version REPL under `Tools > SublimeREPL > Python`
  * evaluate selection or file using your local shortcuts
@@ -32,5 +32,6 @@ The template of alchemist model engine
 * Semver
 
 #### Training
+use a terminal service to connecting to remote GPU pool if possible
 
 #### Deploy

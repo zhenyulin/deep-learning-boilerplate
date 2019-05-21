@@ -1,2 +1,5 @@
 ### compressed data file
 *.gz
+
+### cache
+__pycache__
