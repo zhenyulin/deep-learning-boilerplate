@@ -18,6 +18,8 @@ The template of alchemist model engine
  * evaluate selection or file using your local shortcuts
  * SublimeText Plugins
   * SublimeREPL
+   * [add Anaconda to SublimeREPL](https://stackoverflow.com/questions/20861176/how-do-i-setup-sublimerepl-with-anacondas-interpreter/20861527)
+   * use `pyenv which python` to find the executable of the anaconda
   * SUblimeLinter?
 * pip - the default python package manager (npm)
  * not recommended for local development
