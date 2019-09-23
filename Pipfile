@@ -9,4 +9,10 @@ python_version = "3.7"
 [dev-packages]
 
 [packages]
+scipy = "*"
+numpy = "<1.17"
+matplotlib = "*"
+pandas = "*"
+statsmodels = "*"
+sklearn = "*"
 tensorflow = "*"

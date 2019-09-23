@@ -1,5 +1,7 @@
 install:
-	@pipenv --three
+	@pipenv install --python=`pyenv which python`
+
+shell:
 	@pipenv shell
 
 cleanup:
