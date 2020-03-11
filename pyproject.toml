@@ -12,11 +12,11 @@ matplotlib = "*"
 pandas = "*"
 statsmodels = "*"
 sklearn = "*"
-tensorflow = "*"
-tensorflow-datasets = "^2.1.0"
+tensorflow = "~1.14"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+gast = "0.2.2"
 
 [build-system]
 requires = ["poetry>=0.12"]
