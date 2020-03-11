@@ -1,11 +1,26 @@
+## CONFIG
+export PYTHONPATH := $(PYTHONPATH):$(pwd)
+SHELL := /bin/bash -v
+
+## COMMANDS
 install:
-	@pipenv install --python=`pyenv which python`
+	@poetry install
 
 shell:
-	@pipenv shell
+	@poetry shell
+
+ready:
+	@poetry run python src/__ready__.py
+
+run:
+	@poetry run python src/main.py
+
+watch:
+	@watchman-make -p 'src/**/*.py' -r 'make run'
 
 cleanup:
-	@pipenv clean
+	@rm -rf **/__pycache__
+	@poetry env remove python
 
 test:
 	@pytest test --cov=src
